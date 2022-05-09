@@ -11,7 +11,7 @@ const router:Router =express.Router();
 router.post("/createuser" , createuser);
 router.get("/getalluser" , getalluser);
 router.get("/getalluserpost" , getuserwithpost);
-router.get("/getuserpost/:id" , getuserpostwithId);
+router.get("/getuserpost/:id" ,getuserpostwithId);
 router.get("/getuserpostwithquery/:id",getuserpostwithquerybuilder);
 router.get("/getuserwithquery/:id" ,getsingleuserwithquerybuilder);
 router.get("/getuserwithquery" ,getuserwithquerybuilder);
